@@ -9,7 +9,7 @@
 
 - name: Identiteit
   description: Identiteit ATC
-  # folder: pages/Identiteit
+  # folder: pages/identiteit
   permalink: /identiteit
   # fa-icon: icon-info
 

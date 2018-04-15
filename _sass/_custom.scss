@@ -75,7 +75,8 @@ body {
     position: relative;
     margin: 0;
     padding-bottom: 6rem;
-    min-height: 100%;
+	min-height: 100%;
+	font-family: 'Gravity-Light', serif;
   }
 
 .bh-absolute-bottom {
@@ -140,13 +141,21 @@ p{
   font-family: 'Gravity-Light', serif;
 }
 
-.navbar{
+.navbar {
 	font-family: 'Gravity-Book', serif;
 	font-size:15px;
+	
 
 
 }
 
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+
+	font-family: 'Gravity-Book', serif;
+	font-size:15px;
+	color:grey;
+}
 
 
 
