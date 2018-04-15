@@ -38,24 +38,27 @@ $clientcolor-6:rgba(47,132,199,1);
 // -----------------------------
 
 @font-face {
-    font-family: "Gravity-Bold";
-    src: local("../font/Gravity-Bold.otf") format("otf");
-  }
-  
+  font-family: "Gravity-Bold";
+  src: url('Gravity-Bold.otf') format("otf");
+  src: local('Gravity-Bold.otf'), url('Gravity-Bold.otf')format("otf");
+}
+
 @font-face {  
-  font-family: "Gravity-Light";
-    src: local("../font/Gravity-Light.otf") format("otf");
-  }
+font-family: 'Gravity-Light';
+  src: url('Gravity-Light.otf') format("otf");
+  src: local('Gravity-Light.otf'), url('Gravity-Light.otf')format("otf");
+}
 
 
-    @font-face {   
-      font-family: "Gravity-Book";
-    src: local("../font/Gravity-Book.otf") format("otf");
-  
-  }
+  @font-face {   
+    font-family: 'Gravity-Book';
+  src: url('Gravity-Book.otf') format("otf");
+  src: local('Gravity-Book.otf') , url('Gravity-Book.otf') format("otf");
+
+}
 
 // type
-$myfont-family-base: 'Gravity-Light', serif;
+$myfont-family-base: 'Gravity-Light.otf', serif;
 $myfont-family-title: 'Gravity-Book', serif;
 
 // sizes
