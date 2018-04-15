@@ -39,24 +39,24 @@ $clientcolor-6:rgba(47,132,199,1);
 
 @font-face {
   font-family: "Gravity-Bold";
-  src: url('assets/fonts/Gravity-Bold.ttf') format("ttf");
+  src: url('../assets/fonts/Gravity-Bold.ttf') format("ttf");
 }
 
 @font-face {  
 font-family: 'Gravity-Light';
-  src: url('assets/fonts/Gravity-Light.ttf') format("ttf");
+  src: url('../assets/fonts/Gravity-Light.ttf') format("ttf");
 }
 
 
   @font-face {   
     font-family: 'Gravity-Book';
-  src: url('assets/fonts/Gravity-Book.ttf') format("ttf");
+  src: url('../assets/fonts/Gravity-Book.ttf') format("ttf");
 
 }
 
 // type
-$myfont-family-base: 'Gravity-Light.ttf', serif;
-$myfont-family-title: 'Gravity-Book', serif;
+$myfont-family-base: 'Gravity-Light.ttf', sans-serif;
+$myfont-family-title: 'Gravity-Book', sans-serif;
 
 // sizes
 $font-size-base: 16px;
