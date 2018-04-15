@@ -39,23 +39,23 @@ $clientcolor-6:rgba(47,132,199,1);
 
 @font-face {
   font-family: "Gravity-Bold";
-  src: url('assets/css/Gravity-Bold.otf') format("otf");
+  src: url('assets/fonts/Gravity-Bold.ttf') format("ttf");
 }
 
 @font-face {  
 font-family: 'Gravity-Light';
-  src: url('assets/css/Gravity-Light.otf') format("otf");
+  src: url('assets/fonts/Gravity-Light.ttf') format("ttf");
 }
 
 
   @font-face {   
     font-family: 'Gravity-Book';
-  src: url('assets/css/Gravity-Book.otf') format("otf");
+  src: url('assets/fonts/Gravity-Book.ttf') format("ttf");
 
 }
 
 // type
-$myfont-family-base: 'Gravity-Light.otf', serif;
+$myfont-family-base: 'Gravity-Light.ttf', serif;
 $myfont-family-title: 'Gravity-Book', serif;
 
 // sizes
@@ -70,7 +70,7 @@ $font-weight-bold: 800;
 //------------------------------
 
 // type
-$clientfont-family-base: 'Gravity-Light.otf', serif;
+$clientfont-family-base: 'Gravity-Light.ttf', serif;
 $clientfont-family-title: $myfont-family-base;
 
 // sizes
