@@ -55,7 +55,7 @@ font-family: 'Gravity-Light';
 }
 
 // type
-$myfont-family-base: 'Gravity-Light.ttf', sans-serif;
+$myfont-family-base: 'Gravity-Light', sans-serif;
 $myfont-family-title: 'Gravity-Book', sans-serif;
 
 // sizes
@@ -70,7 +70,7 @@ $font-weight-bold: 800;
 //------------------------------
 
 // type
-$clientfont-family-base: 'Gravity-Light.ttf', serif;
+$clientfont-family-base: 'Gravity-Light', serif;
 $clientfont-family-title: $myfont-family-base;
 
 // sizes
