@@ -37,6 +37,8 @@ background-color:white !important;
 nav[data-toggle=toc] .nav>li>a{
  border-bottom: solid 1px !important;
  border-color:$clientcolor-6 !important;
+ font-family: 'Gravity-Book', serif;
+	font-size:12px;
 
 }
 
@@ -135,8 +137,17 @@ h2{
 
 p{
   color:$color-black;
-  
+  font-family: 'Gravity-Light', serif;
 }
+
+.navbar{
+	font-family: 'Gravity-Book', serif;
+	font-size:15px;
+
+
+}
+
+
 
 
 
