@@ -2,29 +2,63 @@
  -------------------------------------------------- */
  @media (min-width: 768px) {
     .custom-nav-ver {
+        
         .collapse {
             display: block;
+
         }
         .navbar-collapse {
             width:100%;
+    
         }
         .dropdown-menu {
             position: static !important;
             width: 100%;
+       
         }
         .navbar-nav {
             width: 100%;
         }
         .nav-item {
             width: 100%;
+            
+          
         }
         li.active .dropdown-menu {
             position: static !important;
             display: block  !important;
+            
         }
      }
 
  }
+
+ nav.navbar  .navbar-nav  .nav-link:hover {
+    background-color: #3185c7;
+    color: #FFF;    
+ }
+
+ nav.navbar .dropdown-menu {
+    border: none; 
+    
+    color:white;
+
+ }
+
+
+
+ 
+ @media (min-width: 992px){
+.col-lg-2{
+    
+ }
+ .flex-column a{
+   
+}
+}
+
+
+
 
  /* table of contents
  --------------------------- */
@@ -32,6 +66,7 @@
     margin-bottom: 1em;
     .nav {
         display: block;
+        
     }
 
  } 

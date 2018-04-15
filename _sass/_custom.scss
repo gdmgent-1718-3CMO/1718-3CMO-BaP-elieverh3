@@ -2,8 +2,64 @@
 ---------------------------------------------
 */
 .navbar a {
-    border: none;
+	border: none;
+	
+    
 }
+
+.dropdown-item.active, .dropdown-item:active {
+background-color:white;
+color:black;
+
+}
+
+
+dropdown-item.active, .dropdown-item:hover{
+	background-color:$clientcolor-6;
+	color:white;
+	
+	}
+
+
+
+
+body{
+background-color:white !important;
+}
+
+
+.bg-light{
+	background-color:white !important;
+	
+
+}
+
+nav[data-toggle=toc] .nav>li>a{
+ border-bottom: solid 1px !important;
+ border-color:$clientcolor-6 !important;
+
+}
+
+.navbar-brand{
+margin-top:30px;
+margin-bottom: 10px;
+
+}
+
+
+
+
+
+nav[data-toggle=toc] .nav>li>a:focus, nav[data-toggle=toc] .nav>li>a:hover{
+border-left:none !important;
+color:$clientcolor-6!important;
+font-family: 'Gravity-Bold', serif;
+font-size: 12px;
+
+}
+
+
+
 
 /* FOOTER
 ----------------------------------------------
@@ -28,7 +84,7 @@ body {
 }
 
 footer {
-    background-color: $mycolor-2;
+    background-color: $clientcolor-6;
     color: $color-white;
     a {
         color: $color-white;
@@ -44,12 +100,12 @@ footer {
 #to-top {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
+  bottom: 35px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color:$mycolor-3; /* Set a background color */
+  background-color:$clientcolor-6; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   //padding: 15px; /* Some padding */
@@ -58,6 +114,116 @@ footer {
   border-radius: 20px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
   &:hover {
-    background-color:$mycolor-5; 
+    background-color:$color-grey-2; 
   }
+}
+
+h1{
+  color: $clientcolor-6;
+  font-size: 25px;
+  font-family: 'Gravity-Bold', serif;
+
+}
+
+h2{
+  font-size: 25px;
+  color: $clientcolor-6;
+
+}
+
+
+
+p{
+  color:$color-black;
+  
+}
+
+
+
+.buttonDownload {
+	display: inline-block;
+	position: relative;
+	padding: 10px 25px;
+  
+	background-color: $clientcolor-6;
+	color: white;
+  
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 0.9em;
+	text-align: center;
+	text-indent: 15px;
+}
+
+.buttonDownload:hover {
+	background-color: #fff;
+  color: clientcolor-6;
+  border-style: solid;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+
+}
+
+.buttonDownload:before, .buttonDownload:after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 15px;
+	top: 52%;
+}
+
+/* Download box shape  */
+.buttonDownload:before {
+	width: 10px;
+	height: 2px;
+	border-style: solid;
+	border-width:  2px 2px;
+}
+
+/* Download arrow shape */
+.buttonDownload:after {
+	width: 0;
+	height: 0;
+	margin-left: 3px;
+	margin-top: -7px;
+  
+	border-style: solid;
+	border-width: 4px 4px 4px 4px;
+	border-color: transparent;
+	border-top-color: inherit;
+	
+	animation: downloadArrow 2s linear infinite;
+	animation-play-state: paused;
+}
+
+.buttonDownload:hover:before {
+	border-color: $clientcolor-6;
+}
+
+.buttonDownload:hover:after {
+	border-top-color: $clientcolor-6;
+	animation-play-state: running;
+}
+
+/* keyframes for the download icon anim */
+@keyframes downloadArrow {
+	/* 0% and 0.001% keyframes used as a hackish way of having the button frozen on a nice looking frame by default */
+	0% {
+		margin-top: -7px;
+		opacity: 1;
+	}
+	
+	0.001% {
+		margin-top: -15px;
+		opacity: 0;
+	}
+	
+	50% {
+		opacity: 1;
+	}
+	
+	100% {
+		margin-top: 0;
+		opacity: 0;
+	}
 }

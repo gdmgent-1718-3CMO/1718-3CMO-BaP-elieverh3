@@ -4,23 +4,43 @@
 - name: Home
   description: Home
   # folder: pages/
-  permalink: /index 
+  permalink: /index
+  # fa-icon: icon-info
+
+- name: Identiteit
+  description: Identiteit ATC
+  # folder: pages/Identiteit
+  permalink: /identiteit
   # fa-icon: icon-info
 
 - name: Logo
   description: Logo
   folder: pages/logo/
   permalink: logo/
-  # fa-icon: icon-graduation-cap
-
-- name: Kleur
-  description: Kleur
-  folder: pages/kleur/
-  permalink: kleur/
   # fa-icon: icon-info
 
-- name: Styleguide
-  description: Stijlgids voor de Huistijlgids
-  # folder: pages/stijlgids
-  permalink: /stijlgids
+- name: Website
+  description: website
+  # folder: pages/website
+  permalink: /website
   # fa-icon: icon-info
+
+- name: Folder
+  description: folder
+  # folder: pages/
+  permalink: /folder
+  # fa-icon: icon-info
+
+- name: Nieuwsbrief
+  description: nieuwsbrief
+  # folder: pages/ nieuwsbrief
+  permalink: /nieuwsbrief
+  # fa-icon: icon-info
+ 
+- name: Toepassingen
+  description: Grafische toepassingen
+  folder: pages/onderdelen/
+  permalink: onderdelen/
+   # fa-icon: icon-graduation-cap
+
+
