@@ -1,11 +1,20 @@
 /* Navigation
 ---------------------------------------------
 */
+
+.dropdown-item{
+	color:grey !important;
+	font-size:15px;
+}
+
 .navbar a {
 	border: none;
-	
-    
 }
+
+.navbar a:hover {
+	color:white !important;
+}
+
 
 .dropdown-item.active, .dropdown-item:active {
 background-color:white;
